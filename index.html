@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+<body>
+    <nav id="NavBar" class="sticky-nav">
+        <img src="./images/VamshiRK-removebg-preview.png" class="logo" alt="logo">
+        <ul id="navMenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="nav-icons">
+            <i class="material-icons" onclick="closeMenu()">close</i>
+            <i class="material-icons" onclick="openMenu()">menu</i>
+        </div>
+    </nav>
+    <div id="header">
+        <div class="container">
+            <div class="header-text">
+                
+                <h1>Hi, <br> I'm <span>Vamshi Reddy K</span></h1>
+                <p>Developer</p>
+            </div>
+        </div>
+    </div>
+    <!-- about -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <!-- <div class="about-col-1">
+                    <img src="./My_Image-transformed (3).png" alt="Profile_Image">
+                </div> -->
+                <div class="about-col-2">
+                    <h1 class="subtitle">About Me</h1>
+                    <p>Hello, I'm Vamshi, a trained Java Developer with a strong passion for Software development and technology.I enjoy combining my knowledge with programming skills to create innovative solutions.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="openTab('skills')">Skills</p>
+                        <p class="tab-links" onclick="openTab('experience')">Experience</p>
+                        <p class="tab-links" onclick="openTab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Programming/Markup Language <br></span>Java, HTML, JavaScript</li>
+                            <li><span>Framework/Library <br></span>SpringBoot, BootStrap</li>
+                            <li><span>Database & Other <br></span>MySQL, Data Structures</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2022 - Present <br></span>Developer</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents"
+                    id="education">
+                        <ul>
+                            <li><span>Graduation <br></span>Mechanical Engineering</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- projects -->
+    <div id="projects">
+        <div class="container">
+            <div class="top">
+                <h1 class="subtitle">Projects</h1>
+                <a href="" class="btn">See more</a>
+            </div>
+            <div class="projects-list" id="projectsList">
+                <!-- <div class="project">
+                    <div class="carousel">
+                        <img src="./images/work-1.png" alt="">
+                    </div>
+                    <div class="layer">
+                        <h2>Social Media App</h2>
+                        <p>The app connects with people around the world</p>
+                        <div class="links">
+                            <a href="" target="_blank" >Link</a>
+                        </div>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+    </div>
+    <!-- contact -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <div class="social-icons">
+                        <h3>Connect with me @</h3>
+                        <a href="mailto:vamshi.rk27@gmail.com" target="_blank"><img src="https://ouch-cdn2.icons8.com/Q_mKQhLvgHc4CpJslA6YAg1orkPp2LG3W6rdaEQZ1oo/rs:fit:456:456/czM6Ly9pY29uczgu/b3VjaC1wcm9kLmFz/c2V0cy9wbmcvOTYv/MzE3NWFhMzAtMmQw/Yi00MDgyLTlhZWMt/ZWUyZGNlYzQwYmM0/LnBuZw.png" alt="Gmail"></a>
+                        <a href="https://www.linkedin.com/in/vamshirk" target="_blank"><img data-v-62ae1cf8="" src="https://ouch-cdn2.icons8.com/8JSM-dkrbumUC_shV5YnVuPKvB7eBdZ5OBjY7_R4i_I/rs:fit:456:456/czM6Ly9pY29uczgu/b3VjaC1wcm9kLmFz/c2V0cy9wbmcvMjQ3/L2NmOThkOWJmLWRl/NTktNDMzYi1hNjQ1/LTUzYjNkMTczMTU4/My5wbmc.png" alt="LinkedIn"></a>
+                    </div>
+                    <div class="social-icons">
+                        <h3>Profiles</h3>
+                        <a href="https://github.com/VamshiRk27/" target="_blank"><img src="https://ouch-cdn2.icons8.com/_qv0GZ-TvUNz7L6kTDY6jQTK0ZL8PBgeSRketqzOyB0/rs:fit:456:456/czM6Ly9pY29uczgu/b3VjaC1wcm9kLmFz/c2V0cy9wbmcvNDEw/LzY2ZThhYzc1LTJh/ZjAtNDk4MC1hNThl/LWMwOWY0NWIyM2Mz/NS5wbmc.png" alt="Github"></a>
+                        <a href="https://leetcode.com/Vamshir_k/" target="_blank"><img src="./images/icons8-leetcode-48.png" alt="LeetCode"></a>
+                        <a href="https://auth.geeksforgeeks.org/user/vamshirk" target="_blank"><img src="./images/geeksforgeeks-48.png" alt="GeekForGeeks"></a>
+                                               
+                    </div>
+                    <!-- <a href="" download class="btn btn-2">Download</a> -->
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <input type="text" name="Subject" placeholder="Subject" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn-2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright VamshiRk</p>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>

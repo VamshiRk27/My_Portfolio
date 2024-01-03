@@ -1,0 +1,48 @@
+{
+    "E-Commerce": {
+        "info": "An E-Commerce application using Spring Boot Framework",
+        "description": "",
+        "img": [
+            "https://img.freepik.com/free-vector/online-shopping-banner-mobile-app-templates-concept-flat-design_1150-34862.jpg?w=740&t=st=1703744031~exp=1703744631~hmac=748d0496ca12dd269acd5cf085449e3751d708985abcdce7f9d4aec3969e4f93",
+            "https://img.freepik.com/free-photo/showing-cart-trolley-shopping-online-sign-graphic_53876-133967.jpg?w=826&t=st=1703744045~exp=1703744645~hmac=ef7a3896c65f2888ba405f506d6359e891f7f6d97af1f713d6d79df67d606759",
+            "https://img.freepik.com/free-vector/online-wishes-list-concept-illustration_114360-3900.jpg?w=740&t=st=1703744058~exp=1703744658~hmac=38931dbc7e3ffdb0b47d59c012cbcd3632d531ed4de500f486f504eb05f5ae78",
+            "https://img.freepik.com/premium-photo/online-shopping-delivery-concept-product-package-boxes-cart-laptop_38716-162.jpg?w=826"
+        ],
+        "techStack":"Java, SpringBoot, MySQL",
+        "category": "SpringBoot",
+        "repository": "https://github.com/VamshiRk27/E-Commerce_BackEnd"
+    },
+    "FlexBox-Visualizer":{
+        "info": "FrontEnd Implementation of CSS FlexBox property",
+        "description": "",
+        "img": [
+            
+        ],
+        "techStack": "HTML, CSS, JavaScript",
+        "category":"FrontEnd",
+        "repository": "https://github.com/VamshiRk27/FlexBox_Visualizer",
+        "deployment":"https://vamshirk27.github.io/FlexBox_Visualizer/"
+    },
+    "OpenWeatherAPI":{
+        "info": "A Website to fetch Weather information using OpenWeather API service",
+        "description": "",
+        "img": [
+            
+        ],
+        "techStack": "HTML, CSS, JavaScript",
+        "category":"FrontEnd",
+        "repository": "https://github.com/VamshiRk27/OpenWeatherAPI_Project",
+        "deployment":"https://vamshirk27.github.io/OpenWeatherAPI_Project/"
+    },
+    "BlinkIt Clone":{
+        "info": "A static Clone Website of Indian instant delivery service 'BlinkIt' formerly 'Grofers'",
+        "description": "",
+        "img": [
+            
+        ],
+        "techStack": "HTML, CSS, JavaScript",
+        "category":"FrontEnd",
+        "repository": "https://github.com/VamshiRk27/BlinkIt_Clone",
+        "deployment":"https://vamshirk27.github.io/BlinkIt_Clone/"
+    }
+}
